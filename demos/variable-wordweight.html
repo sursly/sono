@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sono - Demo Page</title>
+  <meta name="description" content="Using a variable font">
+  <meta name="author" content="Tyler Finck">
+
+<style>
+@font-face {
+    font-family: 'Sono';
+    src: url('../fonts/variable/Sono[wght].woff2') format("woff2-variations");
+    font-style: normal;
+    font-weight: 200 800;
+}
+
+body {
+  font-family: "Sono";
+}
+
+header {
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  padding: 1em 0;
+  margin: 0 0 5em;
+  font-weight: 500;
+}
+
+
+#demo {
+  max-width: 800px;
+  margin: 5vh auto;
+}
+
+li {
+  list-style-type: none;
+  font-size: calc(14px + 6vw);
+  text-align: center;
+  animation: bigger infinite;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+@keyframes bigger {
+0% {font-variation-settings: "wght" 200}
+50% {font-variation-settings: "wght" 800 }
+100% {font-variation-settings: "wght" 200 }
+}
+
+li:nth-child(2) {animation-delay: .1s}
+li:nth-child(3) {animation-delay: .2s}
+li:nth-child(4) {animation-delay: .3s}
+li:nth-child(5) {animation-delay: .4s}
+li:nth-child(6) {animation-delay: .5s}
+li:nth-child(7) {animation-delay: .6s}
+  </style>
+
+</head>
+
+<body>
+
+<section id="demo">
+  <header>Sono</header>
+
+  <ul>
+    <li>california</li>
+    <li>obligatory</li>
+    <li>crescendos</li>
+    <li>literature</li>
+    <li>skateboard</li>
+    <li>revolution</li>
+    <li>silhouette</li>
+  </ul>
+</section>
+  </body>
+</html>
