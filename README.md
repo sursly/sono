@@ -9,4 +9,7 @@ Seven weights: ExtraLight through ExtraBold. I started Sono when I launched Publ
 
 These gifs are made from screen recordings of two demo html pages I've included in this repository.
 
+![Pangrams with Sono .](sono-pangram.svg “pangrams”)
+
+
 I'm on Twitter if you need me: https://www.twitter.com/typeler
