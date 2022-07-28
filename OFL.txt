@@ -1,9 +1,8 @@
-Copyright (c) 2020, Tyler Finck (https://madebytyler.com)
-Copyright (c) 2020, Etcetera Type Co (https://www.etc.supply).
+Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
+https://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
