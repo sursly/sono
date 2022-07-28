@@ -1,6 +1,9 @@
 {
 .appVersion = "3133";
 .formatVersion = 3;
+DisplayStrings = (
+"Hg/g.ss02"
+);
 axes = (
 {
 name = Weight;
@@ -504,11 +507,11 @@ value = 38;
 },
 {
 name = hheaAscender;
-value = 1571;
+value = 1824;
 },
 {
 name = hheaDescender;
-value = -500;
+value = -576;
 },
 {
 name = hheaLineGap;
@@ -516,11 +519,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1571;
+value = 1824;
 },
 {
 name = typoDescender;
-value = -500;
+value = -576;
 },
 {
 name = typoLineGap;
@@ -528,11 +531,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2124;
+value = 2122;
 },
 {
 name = winDescent;
-value = 524;
+value = 522;
 }
 );
 iconName = Light;
@@ -585,11 +588,11 @@ value = 152;
 },
 {
 name = hheaAscender;
-value = 1571;
+value = 1824;
 },
 {
 name = hheaDescender;
-value = -500;
+value = -576;
 },
 {
 name = hheaLineGap;
@@ -597,11 +600,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1571;
+value = 1824;
 },
 {
 name = typoDescender;
-value = -500;
+value = -576;
 },
 {
 name = typoLineGap;
@@ -609,11 +612,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2124;
+value = 2122;
 },
 {
 name = winDescent;
-value = 524;
+value = 522;
 }
 );
 id = "324E61BF-7061-45AA-9F81-5D4ECCAA9032";
@@ -665,11 +668,11 @@ value = 38;
 },
 {
 name = hheaAscender;
-value = 1571;
+value = 1824;
 },
 {
 name = hheaDescender;
-value = -500;
+value = -576;
 },
 {
 name = hheaLineGap;
@@ -677,11 +680,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1571;
+value = 1824;
 },
 {
 name = typoDescender;
-value = -500;
+value = -576;
 },
 {
 name = typoLineGap;
@@ -689,11 +692,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2124;
+value = 2122;
 },
 {
 name = winDescent;
-value = 524;
+value = 522;
 }
 );
 iconName = Light;
@@ -746,11 +749,11 @@ value = 152;
 },
 {
 name = hheaAscender;
-value = 1571;
+value = 1824;
 },
 {
 name = hheaDescender;
-value = -500;
+value = -576;
 },
 {
 name = hheaLineGap;
@@ -758,11 +761,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1571;
+value = 1824;
 },
 {
 name = typoDescender;
-value = -500;
+value = -576;
 },
 {
 name = typoLineGap;
@@ -770,11 +773,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2124;
+value = 2122;
 },
 {
 name = winDescent;
-value = 524;
+value = 522;
 }
 );
 iconName = SemiBold;
@@ -2286,7 +2289,7 @@ unicode = 7840;
 {
 color = 10;
 glyphname = Agrave;
-lastChange = "2022-07-21 12:26:04 +0000";
+lastChange = "2022-07-28 12:58:50 +0000";
 layers = (
 {
 layerId = "BE68D89F-AB3F-4BDF-B332-ED50D7C47704";
@@ -2315,6 +2318,11 @@ ref = gravecomb.case;
 width = 1238;
 },
 {
+guides = (
+{
+pos = (393,1581);
+}
+);
 layerId = "8A001557-9052-48C4-99E5-0FAF857062F1";
 shapes = (
 {
