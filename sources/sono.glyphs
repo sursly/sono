@@ -384,7 +384,7 @@ sub rinvertedbreve by rinvertedbreve.ss01;
 labels = (
 {
 language = dflt;
-value = "";
+value = "Alternate I, l and r";
 }
 );
 notes = "Name: ";
@@ -408,7 +408,7 @@ sub gdotaccent by gdotaccent.ss02;
 labels = (
 {
 language = dflt;
-value = "";
+value = "Alternate c and g";
 }
 );
 tag = ss02;
@@ -459,7 +459,7 @@ sub ytilde by ytilde.ss03;
 labels = (
 {
 language = dflt;
-value = "";
+value = "Alternate a, t and y";
 }
 );
 tag = ss03;
@@ -472,7 +472,7 @@ sub m by m.ss04;
 labels = (
 {
 language = dflt;
-value = "";
+value = "Alternate M and m";
 }
 );
 tag = ss04;
@@ -486,7 +486,7 @@ sub four by four.ss05;
 labels = (
 {
 language = dflt;
-value = "";
+value = "Alternate numbers";
 }
 );
 tag = ss05;
