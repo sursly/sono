@@ -96576,7 +96576,7 @@ unicode = 731;
 {
 color = 6;
 glyphname = acurve;
-lastChange = "2022-07-21 12:26:04 +0000";
+lastChange = "2022-07-28 12:37:18 +0000";
 layers = (
 {
 layerId = "BE68D89F-AB3F-4BDF-B332-ED50D7C47704";
@@ -97488,12 +97488,12 @@ kerningLTR = {
 "@MMK_R_Y" = -80;
 };
 "@MMK_L_F" = {
+"@MMK_R_A" = 0;
 "@MMK_R_a" = -120;
 "@MMK_R_n" = -100;
 "@MMK_R_o" = -100;
 "@MMK_R_period" = -100;
 "@MMK_R_y" = -100;
-"@MMK_R_A" = 0;
 };
 "@MMK_L_I" = {
 "@MMK_R_t" = -80;
@@ -97674,12 +97674,12 @@ three = -30;
 "@MMK_R_Y" = 0;
 };
 "@MMK_L_F" = {
+"@MMK_R_A" = 0;
 "@MMK_R_a" = 0;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = 0;
 "@MMK_R_period" = 0;
 "@MMK_R_y" = 0;
-"@MMK_R_A" = 0;
 };
 "@MMK_L_I" = {
 "@MMK_R_t" = 0;
@@ -97769,12 +97769,12 @@ three = -30;
 "@MMK_R_Y" = 0;
 };
 "@MMK_L_F" = {
+"@MMK_R_A" = 0;
 "@MMK_R_a" = 0;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = 0;
 "@MMK_R_period" = 0;
 "@MMK_R_y" = 0;
-"@MMK_R_A" = 0;
 };
 "@MMK_L_I" = {
 "@MMK_R_t" = 0;
@@ -97884,7 +97884,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2020 by Tyler Finck. All rights reserved.";
+value = "Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)";
 }
 );
 },
@@ -97917,6 +97917,19 @@ value = "https://tyfromtheinternet.com";
 {
 key = vendorID;
 value = ETCO;
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 }
 );
 settings = {
