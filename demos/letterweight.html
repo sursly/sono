@@ -1,0 +1,132 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sono - Demo Page</title>
+  <meta name="description" content="Using a variable font">
+  <meta name="author" content="Tyler Finck">
+
+<style>
+@font-face {
+font-family: 'Sono 800';
+src: url('../fonts/webfonts/SonoSans-ExtraBold.woff2') format("woff2");
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Sono 700';
+src: url('../fonts/webfonts/SonoSans-Bold.woff2') format("woff2");
+font-style: normal;
+}
+@font-face {
+font-family: 'Sono 600';
+src: url('../fonts/webfonts/SonoSans-SemiBold.woff2') format("woff2");
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Sono 500';
+src: url('../fonts/webfonts/SonoSans-Medium.woff2') format("woff2");
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Sono 400';
+src: url('../fonts/webfonts/SonoSans-Regular.woff2') format("woff2");
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Sono 300';
+src: url('../fonts/webfonts/SonoSans-Light.woff2') format("woff2");
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Sono 200';
+src: url('../fonts/webfonts/SonoSans-ExtraLight.woff2') format("woff2");
+font-style: normal;
+}
+
+body {
+  font-family: 'Sono 500';
+}
+
+header {
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  padding: 1em 0;
+  margin: 0 0 5em;
+  font-weight: 500;
+}
+
+
+#demo {
+  max-width: 800px;
+  margin: 5vh auto;
+}
+
+li {
+  list-style-type: none;
+  font-size: calc(55px + 30vw);
+  text-align: center;
+  animation: bigger infinite;
+  animation-duration: 1.4s;
+  animation-timing-function: ease;
+  display: inline-block;
+  -webkit-text-stroke: 1px rgba(0,0,0,0.15);
+    -webkit-text-fill-color: white;
+    line-height: 1;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+
+}
+ul {
+  position: relative;
+}
+
+li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes bigger {
+0% {  -webkit-text-stroke: 1px rgba(0,0,0,0.0);}
+50% {  -webkit-text-stroke: 1px rgba(0,0,0,1.0);}
+100% {  -webkit-text-stroke: 1px rgba(0,0,0,0.0);}
+}
+
+li:nth-child(1) {font-family: "Sono 800"; animation-delay: .0s;}
+li:nth-child(2) {font-family: "Sono 700"; animation-delay: .2s;}
+li:nth-child(3) {font-family: "Sono 600"; animation-delay: .4s;}
+li:nth-child(4) {font-family: "Sono 500"; animation-delay: .6s;}
+li:nth-child(5) {font-family: "Sono 400"; animation-delay: .8s;}
+li:nth-child(6) {font-family: "Sono 300"; animation-delay: 1s;}
+li:nth-child(7) {font-family: "Sono 200"; animation-delay: 1.2s;}
+  </style>
+
+</head>
+
+<body>
+
+<section id="demo">
+  <header>Sono</header>
+
+  <ul>
+    <li>hey</li>
+    <li>hey</li>
+    <li>hey</li>
+    <li>hey</li>
+    <li>hey</li>
+    <li>hey</li>
+    <li>hey</li>
+  </ul>
+</section>
+  </body>
+</html>
